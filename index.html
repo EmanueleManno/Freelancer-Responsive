@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Icona della pagina-->
+    <link rel="icon" href="./img/avatar.svg" type="image/svg" />
+    <!--Importazione Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Informazioni aggiuntive-->
+    <meta name="keywords" content="esercizio,boolean,programmare,bootstrap" />
+    <meta
+      name="description"
+      content="Proviamo a fare il layout con Bootstrap"
+    />
+    <meta name="author" content="Emanuele Studente Classe 100" />
+    <!--Importazione Libreria di Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!--Collegamento del file HTML con il CSS-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Bootstrap Layout</title>
+  </head>
+  <body>
+    <!--Intestazione della pagina-->
+    <header class="text-white container-fluid text-center">
+      <!--Contenitore-->
+      <div class="container h-100">
+        <!--Row-->
+        <div class="row h-100 align-items-center">
+          <!--Col per la parte di sinistra-->
+          <div class="col text-sm-start fs-3">START BOOTSTRAP</div>
+          <!--Col per la parte di destra-->
+          <div class="col text-sm-end">
+            <!--Iconcina del menù in risoluzione bassa-->
+            <div class="d-sm-block d-md-none fs-5">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <!--Menù in risoluzione alta-->
+            <div>
+              <ul class="list-inline d-sm-none d-md-block">
+                <li class="list-inline-item">
+                  <a href="#" class="text-white text-decoration-none fs-5"
+                    >PORTFOLIO</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-white text-decoration-none fs-5"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="text-white text-decoration-none fs-5"
+                    >CONTACT</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--Prima sezione-->
+    <section id="start" class="container-fluid">
+      <!--Contenitore-->
+      <div class="container h-100 text-center">
+        <!--Row-->
+        <div class="row h-100 align-items-center">
+          <!--Col per l'avatar-->
+          <div class="col-12">
+            <img
+              src="./img/avatar.svg"
+              class="img-fluid img-dim"
+              alt="avatar"
+            />
+          </div>
+          <!--Col per il titoletto-->
+          <div class="col-12 text-white fs-1">START BOOTSTRAP</div>
+          <!--Col per righe e stella-->
+          <div class="col-12 text-white fs-3">
+            _____________
+            <i class="fa-solid fa-star" style="color: #ffffff"></i>
+            _____________
+          </div>
+          <!--Col per le voci testuali del menù-->
+          <div class="col-12 text-white fs-5">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >GRAPHIC ARTIST -</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >WEB DESIGNER -</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="text-white text-decoration-none"
+                  >ILLUSTRATOR</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Seconda sezione-->
+    <section id="portfolio" class="container-fluid">
+      <!--Container-->
+      <div class="container py-4 h-100">
+        <!--Row-->
+        <div class="row h-100 align-items-center text-center">
+          <!--Col per il titolo di sezione-->
+          <div class="col-12 fs-1">PORTFOLIO</div>
+          <!--Col con le righe e la stella-->
+          <div class="col-12 fs-3">
+            _____________ <i class="fa-solid fa-star"></i> _____________
+          </div>
+          <!--Prima immagine-->
+          <div class="p-3 col-sm-12 col-md-6 col-lg-4">
+            <img src="./img/cabin.png" class="img-fluid" />
+          </div>
+          <!--Seconda immagine-->
+          <div class="p-3 col-sm-12 col-md-6 col-lg-4">
+            <img src="./img/cake.png" class="img-fluid" />
+          </div>
+          <!--Terza immagine-->
+          <div class="p-3 col-sm-12 col-md-6 col-lg-4">
+            <img src="./img/circus.png" class="img-fluid" />
+          </div>
+          <!--Quarta immagine-->
+          <div class="p-3 col-sm-12 col-md-6 col-lg-4">
+            <img src="./img/game.png" class="img-fluid" />
+          </div>
+          <!--Quinta immagine-->
+          <div class="p-3 col-sm-12 col-md-6 col-lg-4">
+            <img src="./img/safe.png" class="img-fluid" />
+          </div>
+          <!--Sesta immagine-->
+          <div class="p-3 col-sm-12 col-md-6 col-lg-4">
+            <img src="./img/submarine.png" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Terza sezione-->
+    <section id="about" class="container-fluid">
+      <!--Conteiner-->
+      <div class="container py-4 h-100">
+        <!--Row-->
+        <div class="row h-100 align-items-center text-center">
+          <!--Col con titolo di sezione-->
+          <div class="col-12 text-white fs-1">ABOUT</div>
+          <!--Col con le righe e la stella-->
+          <div class="col-12 text-white fs-3 pb-3">
+            ________ <i class="fa-solid fa-star"></i> ________
+          </div>
+          <!--Col di sinistra col testo-->
+          <div class="col-sm-12 col-md-6 col-lg-6 text-start text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            doloribus labore magnam dolorum error illo natus magni laborum
+            deserunt! Consectetur, libero! Placeat neque dignissimos eligendi
+            incidunt voluptatibus autem nulla doloremque.
+          </div>
+          <!--Col di destra col testo-->
+          <div class="col-sm-12 col-md-6 col-lg-6 text-start text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            porro deleniti esse fuga. Unde iure doloribus ipsa, ducimus
+            excepturi ea placeat. Quia beatae quo eum exercitationem nulla et
+            labore ex!
+          </div>
+          <!--Col col bottone-->
+          <div class="col-12 d-grid gap-2 d-flex justify-content-center py-3">
+            <button
+              class="btn btn-primary me-md-2 btn-personalize"
+              type="button"
+            >
+              <i class="fa-solid fa-download"></i> Download
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Quarta sezione-->
+    <section id="contact" class="container-fluid">
+      <!--Container-->
+      <div class="container h-100 py-4">
+        <!--Row-->
+        <div class="row h-100 align-items-center text-center">
+          <!--Col con il titoletto di sezione-->
+          <div class="col-12 fs-1">CONTACT ME</div>
+          <!--Col con le righe e la stella-->
+          <div class="col-12 fs-3 pb-3">
+            _____________ <i class="fa-solid fa-star"></i> _____________
+          </div>
+          <!--Col per il nome-->
+          <div class="col-12 fs-4 text-start border-bottom">Name</div>
+          <!--Col per la mail-->
+          <div class="col-12 fs-4 text-start border-bottom">Email Address</div>
+          <!--Col per il numero di telefono-->
+          <div class="col-12 fs-4 text-start border-bottom">Phone Number</div>
+          <!--Col per il messaggio-->
+          <div class="col-12 space-bottom fs-4 text-start border-bottom">
+            Message
+          </div>
+          <!--Col per il bottone-->
+          <div
+            class="col-12 d-grid gap-2 d-flex justify-content-start text-start pt-3"
+          >
+            <button
+              class="btn btn-primary me-md-2 btn-personalize"
+              type="button"
+            >
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Quinta sezione-->
+    <section id="location" class="container-fluid">
+      <!--Container-->
+      <div class="container h-100 py-3">
+        <!--Row-->
+        <div class="row h-100 align-items-center text-center text-white">
+          <!--Col con la parte di sinistra-->
+          <div class="col-sm-12 col-md-4 fs-5 py-3">
+            LOCATION<br />
+            2215 John Daniel Drive Clark, MO 54243
+          </div>
+          <!--Col con la parte centrale-->
+          <div class="col-sm-12 col-md-4 fs-5 py-3">
+            AROUND THE WEB<br />
+            <i class="fa-brands fa-facebook fs-4"></i>
+            <i class="fa-brands fa-google-plus fs-4"></i>
+            <i class="fa-brands fa-twitter fs-4"></i>
+            <i class="fa-brands fa-linkedin fs-4"></i>
+          </div>
+          <!--Col con la parte di destra-->
+          <div class="col-sm-12 col-md-4 fs-5 py-3">
+            ABOUT FREELANCER<br />
+            Freelance is a free to use, open Source Bootstrap theme create by
+            <span class="link-personalize">Start Bootstrap</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer della pagina-->
+    <footer class="container-fluid">
+      <!--Container-->
+      <div class="container h-100">
+        <!--Row-->
+        <div class="row h-100 align-items-center text-center text-white">
+          <!--Col-->
+          <div class="col-12">
+            Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!-- RISOLUZIONI TELEFONO, TABLET E DESKTOP:
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+-->

@@ -1,0 +1,55 @@
+/*UTILITIES*/
+.border {
+    border: 2px dashed black;
+}
+
+/*HEADER*/
+header {
+    background-color:rgb(44,62,80);
+    height: 75px;
+    color: white;
+}
+
+/*SECTION 1*/
+#start {
+    background-color: rgb(26,188,156);
+}
+
+/*SECTION 3*/
+#about {
+    background-color: rgb(26,188,156);
+}
+
+/*SECTION 5*/
+#location {
+    background-color: rgb(58,84,109);
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(44,62,80);
+    height: 50px;
+}
+
+/*DIMENSIONI IMMAGINI*/
+.img-dim {
+    height: 200px;
+    width: 100%;
+}
+
+/*PERSONALIZZAZIONE BOTTONE*/
+.btn-personalize {
+    background-color: rgb(26,188,156);
+    border-color: white;
+}
+
+/*SPACE-BOTTOM*/
+.space-bottom {
+    padding-bottom: 100px;
+}
+
+/*PERSONALIZZAZIONE DEL LINK*/
+.link-personalize {
+    color: rgb(26,188,156);
+    text-decoration: underline;
+}
